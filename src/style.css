@@ -78,11 +78,13 @@ li:first-letter {
   text-decoration: none;
 }
 
-.open-source-code {
+.open-source-code,
+.hosted {
   color: blue;
 }
 
-.open-source-code:hover {
+.open-source-code:hover,
+.hosted:hover {
   color: rgb(112, 244, 240);
 }
 
