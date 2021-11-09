@@ -19,16 +19,21 @@
       <div class="weather-app">
         <form id="search-form" class="mb-3">
           <div class="row">
-            <div class="col-9">
-              <input type="search" placeholder="Type a city..." class="form-control" id="city-input"
-                autocomplete="off" />
+            <div class="col-6">
+              <input type="search" placeholder="Type a city..." class="form-control shadow-sm" id="city-input"
+                autocomplete="off" autofocus="on" />
             </div>
             <div class="col-3">
-              <input type="submit" value="Search" class="btn btn-primary w-100" />
+              <input type="submit" value="Search" class="submit" id="submit-button" />
             </div>
-          </div>
+            <div class="col-3">
+              <button class="current-location" id="current-location-button">
+                Current
+              </button>
+            </div>
         </form>
         <div class="overview">
+          <br>
           <h1 id="city"></h1>
           <ul>
             <li>Last updated: <span id="date"></span></li>
@@ -56,12 +61,13 @@
           </div>
         </div>
       </div>
-      <small>
-        <a href="https://github.com/d-joyy/vanilla-weather-app" target="_blank" class="open-source-code">Open-source
-          code</a> by
-        Danielle
-      </small>
     </div>
+    <small>
+      <a href="https://github.com/d-joyy/vanilla-weather-app" target="_blank" class="open-source-code">Open-source
+        code</a> by
+      Danielle
+    </small>
+
   </div>
   <script src="src/app.js"></script>
 </body>

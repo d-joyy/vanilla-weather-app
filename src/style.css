@@ -4,12 +4,12 @@ body {
 }
 
 h1 {
-  color: rgb(112, 117, 122);
-  font-size: 24px;
+  color: rgb(5, 75, 173);
+  font-size: 34px;
   font-weight: 100;
   line-height: 28px;
-  text-align: left;
-  margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 ul {
@@ -21,11 +21,12 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: rgb(112, 117, 122);
-  font-size: 16px;
+  color: #0171c4;
+  font-size: 17px;
   font-weight: 100;
   line-height: 19px;
   width: auto;
+  text-align: center;
 }
 
 li:first-letter {
@@ -39,8 +40,8 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #ecedef;
-  border-radius: 5px;
+  border: 3px solid rgb(26, 178, 168);
+  border-radius: 20px;
   background-color: rgb(112, 244, 240);
 }
 
@@ -50,12 +51,12 @@ li:first-letter {
 
 .weather-temperature img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 75px;
+  width: 75px;
 }
 
 .weather-temperature strong {
-  color: rgb(32, 33, 36);
+  color: rgb(5, 75, 173);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -83,4 +84,28 @@ li:first-letter {
 
 .open-source-code:hover {
   color: rgb(112, 244, 240);
+}
+
+.submit {
+  background-color: rgb(181, 242, 240);
+  border: rgb(26, 178, 168) solid 2px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: rgb(5, 75, 173);
+  padding: 5px 28px;
+}
+
+.current-location {
+  background-color: rgb(181, 242, 240);
+  border: rgb(26, 178, 168) solid 2px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: rgb(5, 75, 173);
+  padding: 5px 28px;
+}
+
+.submit:hover,
+.current-location:hover {
+  background-color: rgb(112, 244, 240);
+  opacity: 0.7;
 }
