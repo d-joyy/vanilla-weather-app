@@ -35,7 +35,7 @@ li:first-letter {
 
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 170px auto;
 }
 
 .weather-app {
@@ -110,4 +110,18 @@ li:first-letter {
 .current-location:hover {
   background-color: rgb(112, 244, 240);
   opacity: 0.7;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: rgb(23, 122, 120);
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature {
+  font-size: 13px;
 }
